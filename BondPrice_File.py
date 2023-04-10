@@ -24,14 +24,3 @@ def getBondPrice(y, face, couponRate, m, ppy=1):
     bondPrice=pvcf+lastyear
   
   return bondPrice
-
-
-y = 0.03  
-face = 2000000  
-couponRate = 0.04  
-maturity = 10
-
-bondPrice1 = getBondPrice(y, face, couponRate, maturity, ppy=1)
-print(bondPrice1)
-bondPrice2 = getBondPrice(y, face, couponRate, maturity, ppy=2)
-print(bondPrice2)
