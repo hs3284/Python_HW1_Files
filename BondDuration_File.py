@@ -16,16 +16,3 @@ def getBondDuration(y,face,couponRate,m,ppy=1):
 
   return bondDuration
 
-
-
-
-
-
-
-y = 0.03  
-face = 2000000  
-couponRate = 0.04  
-maturity = 10
-
-bondDuration = getBondDuration(y, face, couponRate, maturity, ppy=1)
-print(bondDuration)
